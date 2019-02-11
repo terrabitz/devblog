@@ -2,4 +2,39 @@
 label: Post
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    options:
+    - post
+  label: Layout
+  default: post
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
+- type: tag_list
+  label: categories
+  name: categories
+- type: boolean
+  name: comments
+  label: Comments
+- type: boolean
+  name: en
+  label: English?
+  hidden: false
+- type: tag_list
+  name: keywords
+  label: keywords
+- type: list
+  name: authors
+  label: authors
