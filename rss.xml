@@ -1,25 +1,120 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.name | xml_escape }} - Articles</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+    <title>Website name - Articles</title>
+    <description>Website description</description>
     <link>
-    {{ site.url }}</link>
-    {% for post in site.posts %}
+    http://website.com</link>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        {% if post.excerpt %}
-          <description>{{ post.description | xml_escape }}</description>
-        {% else %}
-          <description>{{ post.description | xml_escape }}</description>
-        {% endif %}
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{% if post.link %}{{ post.link }}{% else %}{{ site.baseurl }}{{ post.url }}{% endif %}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        <title>Example post</title>
+        
+          <description>An example post to this theme</description>
+        
+        <pubDate>Sun, 01 May 2016 12:00:00 +0000</pubDate>
+        <link>/darcli/posts/example-post/</link>
+        <guid isPermaLink="true">http://website.com/posts/example-post/</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Example article</title>
+        
+          <description>An example article to this theme</description>
+        
+        <pubDate>Sun, 01 May 2016 12:00:00 +0000</pubDate>
+        <link>/darcli/articles/example-article/</link>
+        <guid isPermaLink="true">http://website.com/articles/example-article/</guid>
+      </item>
+    
+      <item>
+        <title>Título do post</title>
+        
+          <description>descrição do post para SEO</description>
+        
+        <pubDate>Sat, 30 Apr 2016 01:00:00 +0000</pubDate>
+        <link>/darcli/posts/example-post-pt-br/</link>
+        <guid isPermaLink="true">http://website.com/posts/example-post-pt-br/</guid>
+      </item>
+    
+      <item>
+        <title>Título do artigo</title>
+        
+          <description>descrição do artigo para SEO</description>
+        
+        <pubDate>Sat, 30 Apr 2016 01:00:00 +0000</pubDate>
+        <link>/darcli/articles/example-article-pt-br/</link>
+        <guid isPermaLink="true">http://website.com/articles/example-article-pt-br/</guid>
+      </item>
+    
+      <item>
+        <title>Talk title</title>
+        
+          <description>Description about the subject</description>
+        
+        <pubDate>Sun, 28 Feb 2016 00:00:00 +0000</pubDate>
+        <link>https://linktotalk</link>
+        <guid isPermaLink="true">http://website.com/talks/some-talk/</guid>
+      </item>
+    
+      <item>
+        <title>Project 02</title>
+        
+          <description>project description</description>
+        
+        <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+        <link>https://linktoproject</link>
+        <guid isPermaLink="true">http://website.com/projects/project-two/</guid>
+      </item>
+    
+      <item>
+        <title>Project 01</title>
+        
+          <description>project description</description>
+        
+        <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+        <link>https://linktoproject</link>
+        <guid isPermaLink="true">http://website.com/projects/project-one/</guid>
+      </item>
+    
+      <item>
+        <title>tool 02</title>
+        
+          <description>description about the tool</description>
+        
+        <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
+        <link>https://github.com/repository</link>
+        <guid isPermaLink="true">http://website.com/tools/tool-two/</guid>
+      </item>
+    
+      <item>
+        <title>tool 01</title>
+        
+          <description>description about the tool</description>
+        
+        <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
+        <link>https://github.com/repository</link>
+        <guid isPermaLink="true">http://website.com/tools/tool-one/</guid>
+      </item>
+    
+      <item>
+        <title>author2</title>
+        
+          <description></description>
+        
+        <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+        <link>/darcli/team/author-two/</link>
+        <guid isPermaLink="true">http://website.com/team/author-two/</guid>
+      </item>
+    
+      <item>
+        <title>author1</title>
+        
+          <description></description>
+        
+        <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+        <link>/darcli/team/author-one/</link>
+        <guid isPermaLink="true">http://website.com/team/author-one/</guid>
+      </item>
+    
   </channel>
 </rss>
