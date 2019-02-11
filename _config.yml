@@ -10,18 +10,15 @@ fanpage_id: ""
 
 # Site general settings
 lang: "en"
-lang_alternate: "pt_BR"
 ssl: false # It will redirect to https
 
 # Media
 # Just the shortname:
 # facebook: lampiaosec # Rigth
 # facebook: facebook.com/lampiaosec # Wrong
-disqus: test
-twitter: 
-facebook: 
-github: 
-google:
+twitter: terrabitz
+github: terrabitz
+keybase: terrabitz
 
 # Build settings
 markdown: kramdown
