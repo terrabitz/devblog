@@ -1,10 +1,10 @@
 # Site specific settings
-title: "Title to this website"
-name: "Website name"
-keywords: "Key, words, about, this, website"
-baseurl: "/darcli"
-url: "http://website.com"
-description: "Website description"
+title: "Hack_and_Sla.sh"
+name: "Hack_and_Sla.sh"
+keywords: "Development, Hacking, Security, PowerShell, Python, Programming"
+baseurl: "/"
+url: "http://devblog.hackandsla.sh"
+description: "Much hack. So Slash."
 cover: "/assets/img/cover.svg"
 fanpage_id: ""
 
