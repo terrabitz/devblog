@@ -4,6 +4,13 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: _posts/articles
+  label: Articles
+  create: all
+  match: "**/*"
+  templates:
+  - post
 - type: jekyll-posts
   label: Posts
   create: all
