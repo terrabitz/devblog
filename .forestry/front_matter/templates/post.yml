@@ -38,3 +38,5 @@ fields:
 - type: list
   name: authors
   label: authors
+pages:
+- _posts/test-post.md
