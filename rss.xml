@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Website name - Articles</title>
-    <description>Website description</description>
+    <title>Hack_and_Sla.sh - Articles</title>
+    <description>Much hack. So Slash.</description>
     <link>
-    http://website.com</link>
+    https://devblog.hackandsla.sh</link>
     
       <item>
         <title>Example post</title>
         
           <description>An example post to this theme</description>
         
-        <pubDate>Sun, 01 May 2016 12:00:00 +0000</pubDate>
-        <link>/darcli/posts/example-post/</link>
-        <guid isPermaLink="true">http://website.com/posts/example-post/</guid>
+        <pubDate>Sun, 01 May 2016 07:00:00 -0500</pubDate>
+        <link>//posts/example-post/</link>
+        <guid isPermaLink="true">https://devblog.hackandsla.sh/posts/example-post/</guid>
       </item>
     
       <item>
@@ -21,9 +21,9 @@
         
           <description>An example article to this theme</description>
         
-        <pubDate>Sun, 01 May 2016 12:00:00 +0000</pubDate>
-        <link>/darcli/articles/example-article/</link>
-        <guid isPermaLink="true">http://website.com/articles/example-article/</guid>
+        <pubDate>Sun, 01 May 2016 07:00:00 -0500</pubDate>
+        <link>//articles/example-article/</link>
+        <guid isPermaLink="true">https://devblog.hackandsla.sh/articles/example-article/</guid>
       </item>
     
       <item>
@@ -31,19 +31,9 @@
         
           <description>descrição do post para SEO</description>
         
-        <pubDate>Sat, 30 Apr 2016 01:00:00 +0000</pubDate>
-        <link>/darcli/posts/example-post-pt-br/</link>
-        <guid isPermaLink="true">http://website.com/posts/example-post-pt-br/</guid>
-      </item>
-    
-      <item>
-        <title>Título do artigo</title>
-        
-          <description>descrição do artigo para SEO</description>
-        
-        <pubDate>Sat, 30 Apr 2016 01:00:00 +0000</pubDate>
-        <link>/darcli/articles/example-article-pt-br/</link>
-        <guid isPermaLink="true">http://website.com/articles/example-article-pt-br/</guid>
+        <pubDate>Fri, 29 Apr 2016 20:00:00 -0500</pubDate>
+        <link>//posts/example-post-pt-br/</link>
+        <guid isPermaLink="true">https://devblog.hackandsla.sh/posts/example-post-pt-br/</guid>
       </item>
     
       <item>
@@ -51,9 +41,9 @@
         
           <description>Description about the subject</description>
         
-        <pubDate>Sun, 28 Feb 2016 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 28 Feb 2016 00:00:00 -0600</pubDate>
         <link>https://linktotalk</link>
-        <guid isPermaLink="true">http://website.com/talks/some-talk/</guid>
+        <guid isPermaLink="true">https://devblog.hackandsla.sh/talks/some-talk/</guid>
       </item>
     
       <item>
@@ -61,9 +51,9 @@
         
           <description>project description</description>
         
-        <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0600</pubDate>
         <link>https://linktoproject</link>
-        <guid isPermaLink="true">http://website.com/projects/project-two/</guid>
+        <guid isPermaLink="true">https://devblog.hackandsla.sh/projects/project-two/</guid>
       </item>
     
       <item>
@@ -71,9 +61,9 @@
         
           <description>project description</description>
         
-        <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0600</pubDate>
         <link>https://linktoproject</link>
-        <guid isPermaLink="true">http://website.com/projects/project-one/</guid>
+        <guid isPermaLink="true">https://devblog.hackandsla.sh/projects/project-one/</guid>
       </item>
     
       <item>
@@ -81,9 +71,9 @@
         
           <description>description about the tool</description>
         
-        <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 26 Nov 2015 00:00:00 -0600</pubDate>
         <link>https://github.com/repository</link>
-        <guid isPermaLink="true">http://website.com/tools/tool-two/</guid>
+        <guid isPermaLink="true">https://devblog.hackandsla.sh/tools/tool-two/</guid>
       </item>
     
       <item>
@@ -91,9 +81,9 @@
         
           <description>description about the tool</description>
         
-        <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 26 Nov 2015 00:00:00 -0600</pubDate>
         <link>https://github.com/repository</link>
-        <guid isPermaLink="true">http://website.com/tools/tool-one/</guid>
+        <guid isPermaLink="true">https://devblog.hackandsla.sh/tools/tool-one/</guid>
       </item>
     
       <item>
@@ -101,9 +91,9 @@
         
           <description></description>
         
-        <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
-        <link>/darcli/team/author-two/</link>
-        <guid isPermaLink="true">http://website.com/team/author-two/</guid>
+        <pubDate>Mon, 01 Jun 2015 00:00:00 -0500</pubDate>
+        <link>//team/author-two/</link>
+        <guid isPermaLink="true">https://devblog.hackandsla.sh/team/author-two/</guid>
       </item>
     
       <item>
@@ -111,9 +101,9 @@
         
           <description></description>
         
-        <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
-        <link>/darcli/team/author-one/</link>
-        <guid isPermaLink="true">http://website.com/team/author-one/</guid>
+        <pubDate>Mon, 01 Jun 2015 00:00:00 -0500</pubDate>
+        <link>//team/author-one/</link>
+        <guid isPermaLink="true">https://devblog.hackandsla.sh/team/author-one/</guid>
       </item>
     
   </channel>

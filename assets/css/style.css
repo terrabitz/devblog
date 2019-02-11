@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css?family=VT323');
 
 html {
 	background-image: url("../img/background.gif");
@@ -11,7 +12,8 @@ body {
 	margin: auto;
 	width: 80%;
 	border: 1px dashed rgba(255,255,255,0.7);
-	font-family: "Open Sans";
+	font-family: 'VT323', monospace;
+	font-size: 130%;
 }
 
 header, nav, main, footer {
@@ -53,7 +55,7 @@ nav ul li a:hover {
 
 a {
 	text-decoration: none;
-	color: #2A6EA4;
+	color: rgb(0, 179, 24);
 	font-weight: bold;
 }
 
